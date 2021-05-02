@@ -2630,12 +2630,19 @@
 	},
 /obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden/layer3,
 /turf/open/floor/plasteel,
+<<<<<<< HEAD:_maps/map_files/Austation/Austation.dmm
 /area/hallway/primary/starboard)
 "ajJ" = (
 /obj/structure/table,
 /obj/machinery/microwave{
 	pixel_x = -3;
 	pixel_y = 6
+=======
+/area/construction/mining/aux_base)
+"aDm" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+>>>>>>> 53801e3220... Fixes corg's toxins (#4205):_maps/map_files/CorgStation/CorgStation.dmm
 	},
 /obj/effect/turf_decal/tile/neutral{
 	dir = 1
@@ -15003,6 +15010,27 @@
 /obj/structure/cable/yellow{
 	icon_state = "0-4"
 	},
+<<<<<<< HEAD:_maps/map_files/Austation/Austation.dmm
+=======
+/obj/machinery/atmospherics/components/unary/portables_connector/visible{
+	dir = 4
+	},
+/turf/open/floor/plasteel,
+/area/science/mixing)
+"dUz" = (
+/obj/machinery/vending/snack/random,
+/turf/open/floor/plasteel/cafeteria{
+	dir = 5
+	},
+/area/science/research)
+"dUQ" = (
+/obj/effect/turf_decal/tile/brown{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/brown{
+	dir = 1
+	},
+>>>>>>> 53801e3220... Fixes corg's toxins (#4205):_maps/map_files/CorgStation/CorgStation.dmm
 /obj/effect/turf_decal/tile/neutral{
 	dir = 1
 	},
@@ -23029,9 +23057,34 @@
 /obj/item/radio/intercom{
 	pixel_y = 28
 	},
+<<<<<<< HEAD:_maps/map_files/Austation/Austation.dmm
 /obj/machinery/pipedispenser/disposal/transit_tube,
 /obj/effect/turf_decal/stripes/line{
 	dir = 6
+=======
+/turf/open/floor/plasteel,
+/area/crew_quarters/cryopods)
+"fZf" = (
+/obj/structure/cable/yellow{
+	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/components/unary/portables_connector/visible{
+	dir = 1
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 10
+	},
+/turf/open/floor/plasteel,
+/area/science/mixing)
+"fZo" = (
+/obj/effect/spawner/room/fivexfour,
+/turf/open/floor/plating,
+/area/maintenance/starboard/secondary)
+"fZt" = (
+/obj/effect/turf_decal/delivery,
+/obj/machinery/atmospherics/components/binary/dp_vent_pump{
+	dir = 8
+>>>>>>> 53801e3220... Fixes corg's toxins (#4205):_maps/map_files/CorgStation/CorgStation.dmm
 	},
 /turf/open/floor/plasteel,
 /area/engine/atmos)
@@ -33269,8 +33322,13 @@
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer3{
 	dir = 4
 	},
+<<<<<<< HEAD:_maps/map_files/Austation/Austation.dmm
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1{
 	dir = 4
+=======
+/obj/structure/cable/yellow{
+	icon_state = "0-2"
+>>>>>>> 53801e3220... Fixes corg's toxins (#4205):_maps/map_files/CorgStation/CorgStation.dmm
 	},
 /turf/open/floor/plating{
 	icon_state = "platingdmg2"
@@ -38202,10 +38260,26 @@
 /obj/structure/sign/poster/official/random{
 	pixel_y = 32
 	},
+<<<<<<< HEAD:_maps/map_files/Austation/Austation.dmm
 /obj/effect/turf_decal/tile/brown{
 	dir = 1
 	},
 /obj/effect/turf_decal/tile/brown{
+=======
+/obj/structure/disposalpipe/segment,
+/turf/open/floor/plasteel/white,
+/area/medical/medbay/central)
+"jPR" = (
+/obj/machinery/portable_atmospherics/scrubber,
+/turf/open/floor/plasteel,
+/area/science/mixing)
+"jPT" = (
+/obj/structure/chair/comfy/black,
+/obj/effect/turf_decal/tile/green{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/yellow{
+>>>>>>> 53801e3220... Fixes corg's toxins (#4205):_maps/map_files/CorgStation/CorgStation.dmm
 	dir = 4
 	},
 /turf/open/floor/plasteel,
@@ -41885,7 +41959,19 @@
 	name = "Interrogation Monitoring";
 	req_one_access_txt = "1;4"
 	},
+<<<<<<< HEAD:_maps/map_files/Austation/Austation.dmm
 /obj/effect/turf_decal/stripes/line{
+=======
+/turf/open/floor/plasteel/dark,
+/area/security/checkpoint/customs)
+"kUD" = (
+/obj/effect/landmark/start/scientist,
+/turf/open/floor/plasteel/white,
+/area/science/mixing)
+"kUL" = (
+/obj/machinery/holopad,
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1{
+>>>>>>> 53801e3220... Fixes corg's toxins (#4205):_maps/map_files/CorgStation/CorgStation.dmm
 	dir = 4
 	},
 /obj/effect/turf_decal/stripes/line{
@@ -44879,9 +44965,18 @@
 /obj/structure/cable/yellow{
 	icon_state = "1-4"
 	},
+<<<<<<< HEAD:_maps/map_files/Austation/Austation.dmm
 /obj/effect/turf_decal/tile/brown{
 	dir = 4
 	},
+=======
+/turf/open/floor/plasteel/dark,
+/area/security/warden)
+"lLF" = (
+/turf/open/floor/plasteel,
+/area/science/mixing)
+"lLT" = (
+>>>>>>> 53801e3220... Fixes corg's toxins (#4205):_maps/map_files/CorgStation/CorgStation.dmm
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1{
 	dir = 5
 	},
@@ -45466,8 +45561,21 @@
 /obj/effect/turf_decal/tile/neutral{
 	dir = 8
 	},
+<<<<<<< HEAD:_maps/map_files/Austation/Austation.dmm
 /obj/structure/cable{
 	icon_state = "0-2"
+=======
+/obj/machinery/firealarm{
+	dir = 8;
+	pixel_x = 24
+	},
+/obj/machinery/portable_atmospherics/pump,
+/turf/open/floor/plasteel,
+/area/science/mixing)
+"lYb" = (
+/obj/effect/turf_decal/tile/green{
+	dir = 8
+>>>>>>> 53801e3220... Fixes corg's toxins (#4205):_maps/map_files/CorgStation/CorgStation.dmm
 	},
 /obj/machinery/power/port_gen/pacman,
 /turf/open/floor/plasteel/dark,
@@ -51339,6 +51447,7 @@
 	dir = 4
 	},
 /turf/open/floor/plasteel,
+<<<<<<< HEAD:_maps/map_files/Austation/Austation.dmm
 /area/quartermaster/storage)
 "ipZ" = (
 /obj/structure/cable/yellow{
@@ -51357,6 +51466,20 @@
 	dir = 8
 	},
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer3{
+=======
+/area/science/shuttle)
+"nKX" = (
+/obj/effect/turf_decal/stripes/corner{
+	dir = 1
+	},
+/obj/machinery/atmospherics/components/trinary/mixer{
+	dir = 1
+	},
+/turf/open/floor/plasteel,
+/area/science/mixing)
+"nLm" = (
+/obj/structure/chair/comfy/black{
+>>>>>>> 53801e3220... Fixes corg's toxins (#4205):_maps/map_files/CorgStation/CorgStation.dmm
 	dir = 8
 	},
 /turf/open/floor/plating,
@@ -56707,6 +56830,7 @@
 /obj/machinery/atmospherics/pipe/simple/scrubbers/visible{
 	dir = 9
 	},
+<<<<<<< HEAD:_maps/map_files/Austation/Austation.dmm
 /turf/open/floor/plating/airless,
 /area/medical/virology)
 "kwr" = (
@@ -56717,6 +56841,21 @@
 /obj/structure/cable/yellow{
 	icon_state = "4-8"
 	},
+=======
+/turf/open/floor/plasteel/white,
+/area/medical/medbay/central)
+"psB" = (
+/obj/machinery/portable_atmospherics/canister/proto,
+/obj/effect/turf_decal/stripes/corner{
+	dir = 1
+	},
+/obj/machinery/atmospherics/components/unary/portables_connector/visible{
+	dir = 8
+	},
+/turf/open/floor/plasteel,
+/area/science/mixing)
+"psK" = (
+>>>>>>> 53801e3220... Fixes corg's toxins (#4205):_maps/map_files/CorgStation/CorgStation.dmm
 /obj/effect/turf_decal/tile/red{
 	dir = 1
 	},
@@ -60091,6 +60230,7 @@
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer3{
 	dir = 4
 	},
+<<<<<<< HEAD:_maps/map_files/Austation/Austation.dmm
 /turf/open/floor/wood,
 /area/crew_quarters/dorms)
 "lRO" = (
@@ -60107,6 +60247,31 @@
 "lRZ" = (
 /obj/structure/cable/yellow{
 	icon_state = "1-2"
+=======
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/turf/open/floor/plasteel,
+/area/engine/engineering)
+"qpJ" = (
+/obj/effect/spawner/structure/window/reinforced,
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer3,
+/turf/open/floor/plating,
+/area/engine/engineering)
+"qqf" = (
+/obj/machinery/atmospherics/components/unary/thermomachine/heater,
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
+/turf/open/floor/plasteel,
+/area/science/mixing)
+"qqh" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer3{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1{
+	dir = 4
+>>>>>>> 53801e3220... Fixes corg's toxins (#4205):_maps/map_files/CorgStation/CorgStation.dmm
 	},
 /obj/structure/cable/yellow{
 	icon_state = "1-8"
@@ -63201,6 +63366,7 @@
 /obj/structure/chair{
 	dir = 1
 	},
+<<<<<<< HEAD:_maps/map_files/Austation/Austation.dmm
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer3,
 /turf/open/floor/plasteel,
 /area/hallway/secondary/command)
@@ -63213,6 +63379,13 @@
 	},
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1{
 	dir = 4
+=======
+/turf/open/floor/circuit/green,
+/area/security/nuke_storage)
+"rvK" = (
+/obj/machinery/atmospherics/components/unary/portables_connector/visible{
+	dir = 8
+>>>>>>> 53801e3220... Fixes corg's toxins (#4205):_maps/map_files/CorgStation/CorgStation.dmm
 	},
 /turf/open/floor/plasteel,
 /area/hallway/secondary/entry)
@@ -65769,8 +65942,13 @@
 /obj/effect/turf_decal/tile/red{
 	dir = 1
 	},
+<<<<<<< HEAD:_maps/map_files/Austation/Austation.dmm
 /obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden/layer3{
 	dir = 1
+=======
+/obj/machinery/doppler_array/research/science{
+	dir = 8
+>>>>>>> 53801e3220... Fixes corg's toxins (#4205):_maps/map_files/CorgStation/CorgStation.dmm
 	},
 /obj/machinery/atmospherics/pipe/manifold/supply/hidden/layer1{
 	dir = 1
@@ -66172,6 +66350,7 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/dark,
+<<<<<<< HEAD:_maps/map_files/Austation/Austation.dmm
 /area/bridge)
 "okf" = (
 /obj/effect/spawner/structure/window/reinforced,
@@ -66184,6 +66363,20 @@
 	icon_state = "4-8"
 	},
 /obj/effect/turf_decal/stripes/line{
+=======
+/area/engine/gravity_generator)
+"sum" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1,
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer3,
+/obj/structure/cable/yellow{
+	icon_state = "4-8"
+	},
+/turf/open/floor/plasteel/white,
+/area/science/mixing)
+"sut" = (
+/obj/machinery/portable_atmospherics/canister/air,
+/obj/machinery/atmospherics/components/unary/portables_connector{
+>>>>>>> 53801e3220... Fixes corg's toxins (#4205):_maps/map_files/CorgStation/CorgStation.dmm
 	dir = 8
 	},
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer3{
@@ -67717,8 +67910,19 @@
 /obj/machinery/light_switch{
 	pixel_x = -28
 	},
+<<<<<<< HEAD:_maps/map_files/Austation/Austation.dmm
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1{
 	dir = 1
+=======
+/obj/effect/turf_decal/stripes/line{
+	dir = 9
+	},
+/turf/open/floor/plasteel,
+/area/science/mixing)
+"sTA" = (
+/obj/structure/cable/yellow{
+	icon_state = "4-8"
+>>>>>>> 53801e3220... Fixes corg's toxins (#4205):_maps/map_files/CorgStation/CorgStation.dmm
 	},
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer3{
 	dir = 1
@@ -68200,6 +68404,7 @@
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer3{
 	dir = 4
 	},
+<<<<<<< HEAD:_maps/map_files/Austation/Austation.dmm
 /turf/open/floor/plasteel,
 /area/hallway/primary/port)
 "oVw" = (
@@ -68216,6 +68421,25 @@
 /obj/item/reagent_containers/glass/bottle/morphine{
 	pixel_x = 5;
 	pixel_y = 1
+=======
+/turf/open/floor/plasteel/dark,
+/area/hallway/primary/starboard)
+"tbG" = (
+/obj/machinery/light,
+/obj/machinery/portable_atmospherics/canister/proto,
+/obj/machinery/atmospherics/components/unary/portables_connector/visible{
+	dir = 1
+	},
+/turf/open/floor/plasteel,
+/area/science/mixing)
+"tck" = (
+/obj/effect/landmark/start/assistant,
+/turf/open/floor/wood,
+/area/library)
+"tcm" = (
+/obj/effect/turf_decal/tile/red{
+	dir = 4
+>>>>>>> 53801e3220... Fixes corg's toxins (#4205):_maps/map_files/CorgStation/CorgStation.dmm
 	},
 /obj/item/reagent_containers/syringe,
 /obj/item/reagent_containers/glass/bottle/facid{
@@ -72653,8 +72877,20 @@
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
+<<<<<<< HEAD:_maps/map_files/Austation/Austation.dmm
 /obj/machinery/door/airlock{
 	name = "Aft Emergency Storage"
+=======
+/obj/machinery/disposal/bin,
+/turf/open/floor/plasteel,
+/area/science/mixing)
+"upl" = (
+/turf/open/space/basic,
+/area/maintenance/department/chapel/monastery)
+"upy" = (
+/obj/effect/turf_decal/tile/blue{
+	dir = 8
+>>>>>>> 53801e3220... Fixes corg's toxins (#4205):_maps/map_files/CorgStation/CorgStation.dmm
 	},
 /obj/structure/cable/yellow{
 	icon_state = "4-8"
@@ -73016,6 +73252,7 @@
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer1{
 	dir = 4
 	},
+<<<<<<< HEAD:_maps/map_files/Austation/Austation.dmm
 /turf/open/floor/plasteel/dark,
 /area/aisat)
 "qQm" = (
@@ -73027,6 +73264,21 @@
 	},
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer3{
 	dir = 4
+=======
+/turf/open/floor/plasteel,
+/area/janitor)
+"uwI" = (
+/obj/machinery/atmospherics/components/unary/thermomachine/freezer,
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/turf/open/floor/plasteel,
+/area/science/mixing)
+"uwQ" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer3,
+/obj/effect/turf_decal/tile/red{
+	dir = 1
+>>>>>>> 53801e3220... Fixes corg's toxins (#4205):_maps/map_files/CorgStation/CorgStation.dmm
 	},
 /turf/open/floor/plasteel,
 /area/construction/storage_wing)
@@ -73933,10 +74185,42 @@
 	dir = 4
 	},
 /turf/open/floor/plasteel,
+<<<<<<< HEAD:_maps/map_files/Austation/Austation.dmm
 /area/security/main)
 "rjc" = (
 /obj/effect/turf_decal/tile/neutral{
 	dir = 1
+=======
+/area/hallway/secondary/exit)
+"uJG" = (
+/obj/structure/cable/white{
+	icon_state = "1-2"
+	},
+/obj/structure/cable/white{
+	icon_state = "1-4"
+	},
+/turf/open/floor/plating,
+/area/maintenance/solars/starboard/aft)
+"uJJ" = (
+/obj/machinery/atmospherics/components/binary/valve{
+	dir = 1;
+	name = "manual outlet valve"
+	},
+/obj/structure/cable/yellow{
+	icon_state = "4-8"
+	},
+/turf/open/floor/plasteel/white,
+/area/science/mixing)
+"uJU" = (
+/obj/effect/spawner/structure/window/reinforced,
+/obj/machinery/door/firedoor/window,
+/obj/structure/cable/yellow{
+	icon_state = "0-8"
+	},
+/obj/machinery/door/poddoor/shutters/preopen{
+	id = "medbay_lockdown";
+	name = "lockdown shutters"
+>>>>>>> 53801e3220... Fixes corg's toxins (#4205):_maps/map_files/CorgStation/CorgStation.dmm
 	},
 /obj/effect/turf_decal/tile/neutral{
 	dir = 4
@@ -75112,11 +75396,23 @@
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1{
 	dir = 1
 	},
+<<<<<<< HEAD:_maps/map_files/Austation/Austation.dmm
 /turf/open/floor/plasteel,
 /area/science/lab)
 "rIu" = (
 /obj/structure/cable/yellow{
 	icon_state = "1-2"
+=======
+/obj/machinery/meter,
+/obj/machinery/embedded_controller/radio/airlock_controller/incinerator_toxmix{
+	pixel_y = 27
+	},
+/turf/open/floor/plasteel/white,
+/area/science/mixing)
+"vgx" = (
+/obj/structure/chair/office/light{
+	dir = 8
+>>>>>>> 53801e3220... Fixes corg's toxins (#4205):_maps/map_files/CorgStation/CorgStation.dmm
 	},
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden/layer3{
@@ -76251,7 +76547,11 @@
 /obj/effect/turf_decal/tile/blue{
 	dir = 4
 	},
+<<<<<<< HEAD:_maps/map_files/Austation/Austation.dmm
 /obj/effect/turf_decal/tile/blue{
+=======
+/obj/machinery/atmospherics/components/unary/portables_connector/visible{
+>>>>>>> 53801e3220... Fixes corg's toxins (#4205):_maps/map_files/CorgStation/CorgStation.dmm
 	dir = 8
 	},
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1{
@@ -76673,11 +76973,48 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/white,
+<<<<<<< HEAD:_maps/map_files/Austation/Austation.dmm
 /area/medical/medbay/aft)
 "soW" = (
 /obj/machinery/door/airlock/maintenance{
 	name = "Detective Maintenance";
 	req_access_txt = "4"
+=======
+/area/medical/medbay/central)
+"vBK" = (
+/obj/structure/cable/yellow{
+	icon_state = "2-8"
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 6
+	},
+/obj/machinery/atmospherics/components/unary/portables_connector/visible{
+	dir = 1
+	},
+/turf/open/floor/plasteel,
+/area/science/mixing)
+"vBM" = (
+/obj/machinery/advanced_airlock_controller{
+	pixel_y = 24
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden{
+	dir = 10
+	},
+/turf/open/floor/plating,
+/area/maintenance/department/chapel/monastery)
+"vBN" = (
+/obj/structure/disposalpipe/segment{
+	dir = 9
+	},
+/obj/structure/chair/wood,
+/obj/effect/landmark/start/assistant,
+/turf/open/floor/wood,
+/area/crew_quarters/bar)
+"vCd" = (
+/obj/effect/turf_decal/stripes/line,
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+>>>>>>> 53801e3220... Fixes corg's toxins (#4205):_maps/map_files/CorgStation/CorgStation.dmm
 	},
 /obj/structure/cable/yellow{
 	icon_state = "1-2"
@@ -80131,10 +80468,26 @@
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer3{
 	dir = 8
 	},
+<<<<<<< HEAD:_maps/map_files/Austation/Austation.dmm
 /turf/open/floor/plasteel/white,
 /area/medical/medbay/central)
 "tIt" = (
 /obj/effect/landmark/start/quartermaster,
+=======
+/obj/machinery/airlock_sensor/incinerator_toxmix{
+	pixel_x = 24
+	},
+/turf/open/floor/engine,
+/area/science/mixing/chamber)
+"wxJ" = (
+/obj/machinery/air_sensor/atmos/air_tank,
+/turf/open/floor/engine/air,
+/area/engine/atmos)
+"wxN" = (
+/obj/structure/cable/yellow{
+	icon_state = "1-2"
+	},
+>>>>>>> 53801e3220... Fixes corg's toxins (#4205):_maps/map_files/CorgStation/CorgStation.dmm
 /obj/structure/disposalpipe/segment{
 	dir = 10
 	},
@@ -81397,6 +81750,7 @@
 /obj/structure/disposalpipe/segment{
 	dir = 6
 	},
+<<<<<<< HEAD:_maps/map_files/Austation/Austation.dmm
 /turf/open/floor/plasteel/white,
 /area/medical/medbay/aft)
 "uii" = (
@@ -81412,6 +81766,14 @@
 	pixel_x = -3;
 	pixel_y = -38;
 	req_access_txt = "1"
+=======
+/obj/machinery/portable_atmospherics/pump,
+/turf/open/floor/plasteel,
+/area/science/mixing)
+"wQU" = (
+/obj/structure/chair/comfy/black{
+	dir = 8
+>>>>>>> 53801e3220... Fixes corg's toxins (#4205):_maps/map_files/CorgStation/CorgStation.dmm
 	},
 /obj/effect/turf_decal/tile/red,
 /obj/effect/turf_decal/tile/red{
@@ -84687,12 +85049,35 @@
 	dir = 4
 	},
 /turf/open/floor/plasteel,
+<<<<<<< HEAD:_maps/map_files/Austation/Austation.dmm
 /area/hallway/primary/central)
 "vzw" = (
 /obj/machinery/portable_atmospherics/pump,
 /obj/effect/turf_decal/delivery,
 /obj/structure/sign/poster/official/random{
 	pixel_y = 32
+=======
+/area/engine/engineering)
+"ybt" = (
+/obj/effect/turf_decal/stripes/box,
+/obj/machinery/suit_storage_unit/open,
+/turf/open/floor/plating,
+/area/maintenance/fore)
+"ybC" = (
+/obj/machinery/atmospherics/components/binary/valve{
+	dir = 1;
+	name = "manual inlet valve"
+	},
+/obj/structure/cable/yellow{
+	icon_state = "1-4"
+	},
+/turf/open/floor/plasteel/white,
+/area/science/mixing)
+"ybF" = (
+/obj/machinery/advanced_airlock_controller/directional/east,
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
+	dir = 10
+>>>>>>> 53801e3220... Fixes corg's toxins (#4205):_maps/map_files/CorgStation/CorgStation.dmm
 	},
 /obj/machinery/atmospherics/components/unary/portables_connector/visible/layer1,
 /turf/open/floor/plasteel,
@@ -126890,6 +127275,7 @@ aJf
 aKn
 aLS
 eMp
+<<<<<<< HEAD:_maps/map_files/Austation/Austation.dmm
 oXm
 aOu
 aOu
@@ -127042,6 +127428,385 @@ aaa
 aaa
 aaa
 aaa
+=======
+tIb
+exD
+bQe
+uHe
+sum
+oiK
+cah
+ewC
+sRO
+hOe
+und
+bbx
+bbx
+bbx
+kLm
+tVi
+aPH
+ery
+ery
+hmG
+iOB
+vAt
+paJ
+vAt
+rkq
+vAt
+iKs
+vAt
+auR
+auR
+auR
+auR
+fMn
+fTU
+hHR
+iOL
+xiK
+xsd
+kqH
+mon
+qKk
+hjs
+rXJ
+iOL
+pUZ
+iQt
+rdA
+urq
+shs
+rdA
+dip
+hDr
+kcK
+glo
+bTc
+bjS
+bOf
+bdw
+pIk
+hAT
+pIk
+rnt
+bOf
+aMT
+aMT
+anT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+"}
+(110,1,1) = {"
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+huQ
+anT
+anT
+dun
+kEH
+oIq
+aMT
+dun
+uDs
+oIq
+aMT
+dun
+uDs
+oIq
+aMT
+aMT
+aMT
+aMT
+anT
+aMT
+anT
+aMT
+cvP
+hwG
+wdy
+aKJ
+qXK
+ilY
+hvt
+cvP
+duv
+dhZ
+agr
+mma
+mma
+mma
+mma
+mma
+saC
+mma
+cYB
+vlr
+vlr
+fBQ
+mma
+vlr
+hJJ
+oMs
+nCg
+wrI
+kzL
+fKX
+diY
+mHr
+xmY
+sHc
+sRv
+cjS
+ycf
+jlu
+mHr
+kIy
+lWn
+ejA
+ejA
+ejA
+hSX
+kiK
+jHk
+jwL
+opg
+lWn
+jpU
+gAn
+nBs
+pga
+hzw
+xYE
+rNy
+ver
+wxC
+ply
+vge
+uJJ
+pSu
+cah
+mEh
+cah
+cah
+lao
+iHe
+vhc
+vhc
+uem
+vhc
+vhc
+iOB
+iOB
+jPf
+iOB
+vhc
+bZH
+nsJ
+fAv
+lhr
+tjS
+bZH
+gNR
+txJ
+jfJ
+vhc
+lni
+fTU
+hHR
+iOL
+ifc
+fCJ
+pRb
+hBV
+qnl
+tlH
+oNk
+oQg
+pAw
+nvP
+rdA
+cqn
+hNh
+pAF
+heh
+isn
+nrK
+xcf
+xlM
+brt
+bOf
+fDg
+nTH
+oLJ
+mgd
+oRq
+bOf
+bBo
+bBo
+bBo
+bBo
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+>>>>>>> 53801e3220... Fixes corg's toxins (#4205):_maps/map_files/CorgStation/CorgStation.dmm
 "}
 (139,1,1) = {"
 aaa
@@ -127300,6 +128065,7 @@ aaa
 aaa
 aaa
 "}
+<<<<<<< HEAD:_maps/map_files/Austation/Austation.dmm
 (140,1,1) = {"
 aaa
 aaa
@@ -127556,6 +128322,264 @@ aaa
 aaa
 aaa
 aaa
+=======
+(112,1,1) = {"
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+dun
+uDs
+oIq
+aMT
+dun
+uDs
+oIq
+aMT
+dun
+uDs
+oIq
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+kVl
+fcW
+jxO
+stn
+cJp
+xzs
+rdO
+sAp
+qno
+cyQ
+bhO
+mma
+xUn
+gOI
+dWt
+dWt
+oQR
+mma
+jzt
+vlr
+vlr
+vlr
+bxI
+bxI
+bxI
+bxI
+bxI
+bxI
+lpw
+qkn
+oOH
+mHr
+dob
+cPJ
+wSV
+rZn
+vbU
+eQh
+jvu
+ilJ
+lWn
+ejA
+xqo
+ejA
+lWn
+etU
+kqf
+qOq
+ouB
+lWn
+ycv
+gAn
+dmB
+hSb
+vYV
+uJj
+iZp
+lKv
+hZO
+bOW
+qqf
+vBK
+ipI
+vKb
+iCv
+eey
+cah
+iOB
+iOB
+iOB
+iHe
+aTr
+ixF
+vhc
+iOB
+iOB
+iOB
+iOB
+vhc
+kev
+cEb
+clI
+kev
+eaY
+kev
+kev
+kjy
+kev
+vhc
+lni
+rlS
+bxp
+iOL
+vxL
+mon
+mon
+oQi
+mEJ
+vvL
+uaU
+iOL
+sut
+ubC
+rdA
+mjq
+oqC
+rdA
+kuZ
+pql
+ykT
+glo
+hQq
+tNf
+bOf
+xBN
+nEZ
+bOf
+mSU
+rnt
+xwJ
+iZh
+uIQ
+dUo
+ggT
+qaQ
+kyN
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+>>>>>>> 53801e3220... Fixes corg's toxins (#4205):_maps/map_files/CorgStation/CorgStation.dmm
 "}
 (141,1,1) = {"
 aaa
@@ -127814,6 +128838,7 @@ aaa
 aaa
 aaa
 "}
+<<<<<<< HEAD:_maps/map_files/Austation/Austation.dmm
 (142,1,1) = {"
 aaa
 aaa
@@ -128070,6 +129095,264 @@ aaa
 aaa
 aaa
 aaa
+=======
+(114,1,1) = {"
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+anT
+dun
+hTD
+oIq
+aMT
+dun
+vud
+oIq
+aMT
+dun
+vud
+oIq
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+dJG
+rQM
+jxO
+dKA
+eDP
+dfQ
+bfu
+sAp
+qno
+guG
+ofy
+mma
+ybt
+qjd
+rJJ
+qUW
+vlr
+mma
+aUb
+nde
+jDQ
+bxI
+bxI
+ufK
+hZv
+oAR
+oAR
+jQE
+mQp
+qkn
+ocz
+mTM
+fGA
+kyi
+gFw
+hMi
+hMi
+fAc
+mHr
+kIy
+lWn
+ejA
+paK
+ejA
+lWn
+gHQ
+jIB
+rki
+rki
+ejd
+kTn
+hzu
+blN
+szJ
+fxT
+xHM
+epN
+itu
+qXg
+tFX
+bOW
+dUu
+kUD
+oaw
+sQv
+qkk
+cEu
+cEu
+cEu
+cEu
+cEu
+cEu
+iQt
+auR
+rXr
+dqw
+nxL
+fTS
+rXr
+auR
+cZB
+seZ
+qWV
+auR
+cZB
+seZ
+nzM
+auR
+alu
+uII
+tGe
+jsP
+rHc
+wIA
+uBb
+kij
+gwp
+gPn
+mnh
+mCm
+oDu
+pTT
+rMl
+ekt
+qIT
+hFv
+iRM
+xEL
+ieL
+juT
+glo
+pxO
+xKk
+bOf
+sRM
+evT
+xMT
+uYL
+gJt
+hTq
+bwm
+mup
+yif
+ggT
+eJW
+kyN
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+>>>>>>> 53801e3220... Fixes corg's toxins (#4205):_maps/map_files/CorgStation/CorgStation.dmm
 "}
 (143,1,1) = {"
 aaa
