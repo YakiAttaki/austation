@@ -13913,6 +13913,7 @@
 /obj/machinery/status_display/ai{
 	pixel_y = 32
 	},
+<<<<<<< HEAD:_maps/map_files/Austation/Austation.dmm
 /obj/item/storage/toolbox/mechanical{
 	pixel_x = -1;
 	pixel_y = 4
@@ -13949,6 +13950,17 @@
 "bhr" = (
 /obj/structure/cable/yellow{
 	icon_state = "2-4"
+=======
+/turf/open/floor/plating,
+/area/maintenance/starboard/aft)
+"dsx" = (
+/turf/open/floor/plasteel/freezer,
+/area/medical/genetics)
+"dtD" = (
+/obj/machinery/space_heater,
+/obj/machinery/requests_console{
+	pixel_y = 32
+>>>>>>> f77bb76f26... Fixes corgstation science door, requires CE access to eject the SM. (#4199):_maps/map_files/CorgStation/CorgStation.dmm
 	},
 /obj/machinery/computer/prisoner/management,
 /obj/effect/turf_decal/tile/red{
@@ -26618,6 +26630,7 @@
 /obj/machinery/atmospherics/components/unary/outlet_injector/atmos/oxygen_input{
 	dir = 1
 	},
+<<<<<<< HEAD:_maps/map_files/Austation/Austation.dmm
 /turf/open/floor/engine/o2,
 /area/engine/atmos)
 "chR" = (
@@ -26627,6 +26640,58 @@
 "chS" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/siphon/atmos/oxygen_output{
 	dir = 1
+=======
+/obj/effect/turf_decal/tile/red,
+/obj/structure/table/reinforced,
+/obj/item/clothing/suit/straight_jacket,
+/obj/item/clothing/mask/muzzle,
+/turf/open/floor/plasteel/dark,
+/area/security/execution/education)
+"gLD" = (
+/obj/structure/lattice/catwalk,
+/obj/structure/cable/white,
+/turf/open/space/basic,
+/area/solar/port/fore)
+"gLP" = (
+/obj/structure/table,
+/obj/item/book/manual/wiki/engineering_construction{
+	pixel_x = 6;
+	pixel_y = 6
+	},
+/obj/item/book/manual/wiki/engineering_hacking{
+	pixel_x = 3;
+	pixel_y = 3
+	},
+/obj/item/book/manual/wiki/engineering_singulo_tesla,
+/obj/item/book/manual/wiki/engineering_guide{
+	pixel_x = -3;
+	pixel_y = -3
+	},
+/obj/machinery/button/massdriver{
+	id = "smeject";
+	name = "supermatter ejection sequence";
+	pixel_x = -27;
+	pixel_y = 7;
+	req_access_txt = "56"
+	},
+/obj/effect/turf_decal/stripes/corner{
+	dir = 4
+	},
+/obj/machinery/light{
+	dir = 8
+	},
+/obj/machinery/button/door{
+	id = "engsm";
+	name = "Radiation Shutters";
+	pixel_x = -27;
+	pixel_y = -3
+	},
+/turf/open/floor/plasteel/dark,
+/area/engine/engine_smes)
+"gLT" = (
+/obj/effect/turf_decal/tile/yellow{
+	dir = 8
+>>>>>>> f77bb76f26... Fixes corgstation science door, requires CE access to eject the SM. (#4199):_maps/map_files/CorgStation/CorgStation.dmm
 	},
 /turf/open/floor/engine/o2,
 /area/engine/atmos)
@@ -51865,7 +51930,34 @@
 /obj/machinery/atmospherics/pipe/simple/scrubbers/visible{
 	dir = 4
 	},
+<<<<<<< HEAD:_maps/map_files/Austation/Austation.dmm
 /obj/machinery/power/terminal{
+=======
+/area/chapel/main/monastery)
+"nUN" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/obj/effect/turf_decal/tile/yellow{
+	dir = 8
+	},
+/obj/effect/turf_decal/tile/yellow,
+/obj/effect/turf_decal/tile/yellow{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/yellow{
+	dir = 1
+	},
+/obj/machinery/firealarm{
+	dir = 8;
+	pixel_x = 24
+	},
+/obj/machinery/vending/modularpc,
+/turf/open/floor/plasteel,
+/area/storage/tools)
+"nUO" = (
+/obj/effect/turf_decal/tile/brown{
+>>>>>>> f77bb76f26... Fixes corgstation science door, requires CE access to eject the SM. (#4199):_maps/map_files/CorgStation/CorgStation.dmm
 	dir = 1
 	},
 /obj/structure/cable/yellow{
@@ -52807,9 +52899,26 @@
 /obj/structure/cable/yellow{
 	icon_state = "4-8"
 	},
+<<<<<<< HEAD:_maps/map_files/Austation/Austation.dmm
 /obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden/layer3,
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1{
 	dir = 4
+=======
+/turf/open/floor/carpet/green,
+/area/library)
+"ome" = (
+/obj/machinery/atmospherics/components/binary/dp_vent_pump,
+/turf/open/floor/plating,
+/area/maintenance/department/chapel/monastery)
+"oms" = (
+/obj/machinery/light_switch{
+	pixel_x = -25
+	},
+/obj/effect/turf_decal/stripes/line,
+/obj/machinery/camera/autoname{
+	dir = 4;
+	network = list("aisat")
+>>>>>>> f77bb76f26... Fixes corgstation science door, requires CE access to eject the SM. (#4199):_maps/map_files/CorgStation/CorgStation.dmm
 	},
 /turf/open/floor/plasteel/dark,
 /area/ai_monitored/turret_protected/aisat_interior)
@@ -53085,6 +53194,7 @@
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer3{
 	dir = 1
 	},
+<<<<<<< HEAD:_maps/map_files/Austation/Austation.dmm
 /turf/open/floor/wood,
 /area/crew_quarters/heads/captain/private)
 "jae" = (
@@ -53107,6 +53217,31 @@
 "jaj" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer3{
 	dir = 6
+=======
+/obj/effect/turf_decal/tile/yellow{
+	dir = 8
+	},
+/turf/open/floor/plasteel,
+/area/engine/engineering)
+"oui" = (
+/obj/structure/lattice,
+/obj/machinery/atmospherics/pipe/heat_exchanging/simple{
+	dir = 10
+	},
+/turf/open/space/basic,
+/area/space/nearstation)
+"ouB" = (
+/obj/structure/table/reinforced,
+/obj/item/folder/red,
+/obj/effect/turf_decal/stripes/line{
+	dir = 5
+	},
+/turf/open/floor/plasteel/dark,
+/area/science/explab)
+"ouN" = (
+/obj/machinery/atmospherics/pipe/manifold/general/visible{
+	dir = 1
+>>>>>>> f77bb76f26... Fixes corgstation science door, requires CE access to eject the SM. (#4199):_maps/map_files/CorgStation/CorgStation.dmm
 	},
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1{
 	dir = 10
@@ -59714,6 +59849,7 @@
 /obj/effect/turf_decal/tile/neutral{
 	dir = 8
 	},
+<<<<<<< HEAD:_maps/map_files/Austation/Austation.dmm
 /turf/open/floor/plasteel/dark,
 /area/medical/genetics/cloning)
 "lLJ" = (
@@ -59724,6 +59860,38 @@
 /obj/machinery/firealarm{
 	dir = 8;
 	pixel_x = 24
+=======
+/turf/open/floor/plating,
+/area/engine/engineering)
+"qri" = (
+/obj/structure/table,
+/obj/item/crowbar,
+/obj/item/wirecutters,
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/yellow{
+	dir = 8
+	},
+/obj/effect/turf_decal/tile/yellow,
+/obj/effect/turf_decal/tile/yellow{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/yellow{
+	dir = 1
+	},
+/obj/item/modular_computer/tablet/preset/cheap,
+/turf/open/floor/plasteel,
+/area/storage/tools)
+"qrm" = (
+/obj/machinery/light/small/broken,
+/obj/machinery/portable_atmospherics/canister/oxygen,
+/turf/open/floor/plating,
+/area/maintenance/starboard/aft)
+"qrn" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
+	dir = 6
+>>>>>>> f77bb76f26... Fixes corgstation science door, requires CE access to eject the SM. (#4199):_maps/map_files/CorgStation/CorgStation.dmm
 	},
 /obj/machinery/camera{
 	c_tag = "Fore Primary Hallway Aft";
@@ -66595,7 +66763,22 @@
 /obj/effect/turf_decal/tile/neutral{
 	dir = 1
 	},
+<<<<<<< HEAD:_maps/map_files/Austation/Austation.dmm
 /obj/effect/turf_decal/tile/neutral{
+=======
+/turf/open/floor/plasteel/dark,
+/area/quartermaster/miningdock)
+"sMv" = (
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer1{
+	dir = 4
+	},
+/obj/structure/table/wood,
+/obj/item/modular_computer/laptop/preset/civillian,
+/turf/open/floor/carpet/green,
+/area/crew_quarters/bar)
+"sMX" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/visible{
+>>>>>>> f77bb76f26... Fixes corgstation science door, requires CE access to eject the SM. (#4199):_maps/map_files/CorgStation/CorgStation.dmm
 	dir = 4
 	},
 /turf/open/floor/plasteel,
@@ -79950,6 +80133,7 @@
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1{
 	dir = 6
 	},
+<<<<<<< HEAD:_maps/map_files/Austation/Austation.dmm
 /turf/open/floor/plasteel/white,
 /area/medical/virology)
 "tEV" = (
@@ -79987,6 +80171,14 @@
 "tFA" = (
 /obj/structure/cable/yellow{
 	icon_state = "4-8"
+=======
+/turf/open/floor/plasteel/dark,
+/area/bridge)
+"wPn" = (
+/obj/machinery/atmospherics/components/binary/pump/on{
+	dir = 8;
+	name = "Waste to Filter"
+>>>>>>> f77bb76f26... Fixes corgstation science door, requires CE access to eject the SM. (#4199):_maps/map_files/CorgStation/CorgStation.dmm
 	},
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1,
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer3,
@@ -122160,6 +122352,7 @@ aaa
 aaa
 aaa
 "}
+<<<<<<< HEAD:_maps/map_files/Austation/Austation.dmm
 (120,1,1) = {"
 aaa
 aaa
@@ -122416,6 +122609,264 @@ aaa
 aaa
 aaa
 aaa
+=======
+(67,1,1) = {"
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+kgN
+anT
+aPf
+sEV
+gDn
+tWl
+cZK
+gDn
+dQc
+kEy
+gDn
+gDn
+tWl
+gDn
+bMw
+gmk
+syv
+ocB
+hKr
+acA
+rjQ
+jtQ
+dFb
+aPf
+aMT
+aMT
+aLq
+aPm
+aCq
+kWs
+auo
+aWW
+aBc
+aaa
+tFT
+aRz
+vwK
+aaa
+wop
+aXT
+acP
+atO
+gLP
+hGx
+amI
+oGN
+nHf
+edJ
+amI
+sFX
+jqu
+vlf
+kxH
+anT
+anT
+anT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+anT
+aMT
+aMT
+aMT
+aMT
+anT
+aMT
+aMT
+aMT
+aMT
+aMT
+anT
+aMT
+anT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aWj
+aWj
+aWj
+aWj
+aWj
+aMT
+kwL
+aMT
+aWj
+aWj
+aWj
+aWj
+aWj
+aMT
+aMT
+aMT
+aMT
+oxd
+tKK
+wiM
+wiM
+wiM
+pjC
+oxd
+cTE
+aAB
+aAB
+bnp
+oxd
+sQL
+oxd
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aUa
+kJm
+xun
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+>>>>>>> f77bb76f26... Fixes corgstation science door, requires CE access to eject the SM. (#4199):_maps/map_files/CorgStation/CorgStation.dmm
 "}
 (121,1,1) = {"
 aaa
@@ -128776,6 +129227,7 @@ anT
 anT
 aaf
 anT
+<<<<<<< HEAD:_maps/map_files/Austation/Austation.dmm
 aaa
 aaa
 aaa
@@ -128841,6 +129293,179 @@ aaa
 aaa
 aaa
 aaa
+=======
+aMT
+aMT
+aRL
+aMT
+aMT
+azB
+azB
+azB
+azB
+azB
+aMT
+aMT
+scI
+baK
+wfO
+bxI
+uko
+pNo
+nIX
+rWM
+qri
+sxe
+sbY
+qkn
+ocz
+mHr
+goI
+goI
+goI
+mHr
+kUj
+fxl
+goI
+pga
+pga
+wkh
+pga
+pga
+lWn
+lWn
+lWn
+lWn
+lWn
+lWn
+ycv
+gAn
+blN
+buD
+eGD
+eGD
+aWq
+hSb
+hSb
+hSb
+bOW
+vvk
+pxZ
+wiq
+lEM
+car
+eAR
+wEE
+xfs
+hdR
+qIC
+cEu
+bmO
+auR
+lMR
+vaO
+gRm
+vaO
+sZX
+auR
+nAi
+aPk
+sTk
+auR
+nWm
+uMu
+nAi
+auR
+cWU
+coK
+xls
+rXb
+cUo
+cUo
+cUo
+cUo
+cUo
+cUo
+cUo
+cUo
+cUo
+cUo
+rXb
+rXb
+oFw
+iOL
+opx
+iZR
+qUm
+aVm
+bOf
+uhm
+bzq
+mcN
+cOz
+vqf
+sZv
+puk
+vJX
+sZv
+pJd
+slH
+cek
+ero
+aMT
+aQG
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+>>>>>>> f77bb76f26... Fixes corgstation science door, requires CE access to eject the SM. (#4199):_maps/map_files/CorgStation/CorgStation.dmm
 "}
 (146,1,1) = {"
 aaa
@@ -129804,6 +130429,7 @@ dbL
 dbL
 aaa
 anT
+<<<<<<< HEAD:_maps/map_files/Austation/Austation.dmm
 aaa
 aaa
 aaa
@@ -129869,6 +130495,183 @@ aaa
 aaa
 aaa
 aaa
+=======
+qBt
+qBt
+aRL
+aRL
+aRL
+aRL
+aRL
+aMT
+azB
+csV
+aUs
+aUs
+aUs
+mSV
+azB
+aMT
+scI
+aVf
+qDx
+vlr
+bxI
+pvq
+nUN
+xQa
+mgs
+bxI
+sbY
+dTM
+sAX
+pga
+qxP
+dKM
+hzh
+pga
+uML
+iVU
+oWf
+wrA
+son
+pII
+xZn
+pga
+btF
+blN
+ggh
+hNB
+jpk
+jDg
+jpk
+jpk
+jpk
+gFq
+oRc
+iPU
+cLA
+dvB
+jpk
+uIZ
+hdz
+wQB
+lXO
+psB
+rvK
+jPR
+sLm
+qWg
+xCB
+xCB
+wtH
+cEu
+iQt
+auR
+wpl
+bsa
+bsa
+bsa
+bsa
+gkV
+xSg
+xSg
+sSO
+pUU
+bpw
+xSg
+acU
+amM
+wqJ
+coK
+xls
+rXb
+cUo
+cUo
+cUo
+cUo
+cUo
+cUo
+cUo
+cUo
+cUo
+cUo
+rXb
+tdo
+ttb
+lGm
+iOL
+blK
+tCG
+ljP
+qEV
+cnK
+ueW
+nFc
+xkH
+qPo
+gIk
+qfW
+tsw
+rBv
+jNh
+diA
+hCM
+ngK
+fZt
+hLF
+qoV
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+>>>>>>> f77bb76f26... Fixes corgstation science door, requires CE access to eject the SM. (#4199):_maps/map_files/CorgStation/CorgStation.dmm
 "}
 (150,1,1) = {"
 aaa
@@ -133833,6 +134636,7 @@ dlI
 aQe
 aRv
 dfD
+<<<<<<< HEAD:_maps/map_files/Austation/Austation.dmm
 oZr
 tDX
 apc
@@ -133981,6 +134785,118 @@ aaa
 aaa
 aaa
 aaa
+=======
+xVx
+oKB
+pRL
+mhq
+boA
+wbK
+vDl
+aaK
+lYk
+lYk
+xVX
+tXY
+ugx
+jNy
+cyL
+mxc
+acG
+haf
+rbi
+kan
+gWp
+lAI
+fXb
+ftc
+fhO
+teW
+kSl
+tSP
+flm
+cBa
+xzr
+sMv
+wvy
+fhO
+onn
+fhO
+aKR
+fhO
+xXa
+xXa
+mPT
+lmv
+bAp
+rLU
+eed
+ewj
+xuQ
+ewj
+ffz
+xXa
+aMT
+anT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+aMT
+>>>>>>> f77bb76f26... Fixes corgstation science door, requires CE access to eject the SM. (#4199):_maps/map_files/CorgStation/CorgStation.dmm
 "}
 (166,1,1) = {"
 aaa
